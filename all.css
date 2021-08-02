@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*navbar*/
+/* navbar*/
+.navbar{
+    position:fixed;
+    width: 100%;
+    padding: 15px 0;
+  /*  background-color: rgb(0, 0, 0);*/
+    font-family: 'ubuntu',sans-serif;
+}
+.navbar .max-width{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#tut {
+    font-weight: 500;
+    position: relative;
+    right: 410%;
+
+}
+#tut1 {
+    position: relative;
+    font-weight: 500;
+    right: 280%;
+
+}
+#tut2 {
+    position: relative;
+    right: 270%;
+    font-weight: 500;
+}
+#tut6{
+    position: relative;
+    font-weight: 500;
+    left:  190%;
+}
+#tut3 {
+    font-weight: 500;
+    position: relative;
+    right: 40%;
+
+}
+#tut4 {
+    font-weight: 500;
+    position: relative;
+    right: 20%;
+
+}
+#tut5 {
+    font-weight: 500;
+    position: relative;
+    right: 10%;
+
+}
+.navbar .logo a{
+    color: rgb(255, 255, 255);
+    font-size: none;
+    font-weight: 900 ;
+}
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 25px ;
+    transition: colar 0.3s easa;
+    position: relative;
+    right: 60%;
+    bottom: 100%;
+}
+.navbar .menu li a:hover{
+    color: rgb(71, 19, 243);
+}
+/*navbar end*/
+body{
+    background:rgb(5, 5, 5);
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+/*2th navbar*/
+
+.player{
+    position:fixed;
+    width: 100%;
+    padding: 15px 0;
+  /*  background-color: rgb(0, 0, 0);*/
+    font-family: 'ubuntu',sans-serif;
+}
+.player .max{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#box1 {
+    position: absolute;
+    bottom: -300px;
+    font-weight: 100;
+    right: 82%;
+    box-sizing: content-box;
+  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#box2 {
+   
+    position: absolute;
+    bottom: -300px;
+    right: 70%;
+font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#box3 {
+    position: absolute;
+    bottom: -300px;
+    right: 60%;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box4{
+    position: absolute;
+    bottom: -300px;
+    right: 47%;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#box5{
+    position: absolute;
+    bottom: -300px;
+    right: 30%;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#box6{
+    position: absolute;
+    bottom: -300px;
+    right: 10%;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.player .index1 a{
+    color: #fff;
+    font-size: none;
+    font-weight: 100 ;
+}
+.player .index1 a span{
+    color: crimson;
+}
+.player .index2 li{
+    list-style: none;
+    display: inline-block;
+}
+.player .index2 li a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 25px ;
+    transition: colar 0.3s easa;
+    position: relative;
+    right: 60%;
+    bottom: 100%;
+}
+.player .index2 li a:hover{
+    color: rgb(243, 19, 19);
+}
+#container{
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+}
+#index3{
+    position: absolute;
+    top: -2%;
+    left: -1%; 
+    color:rgba(255, 255, 255, 0.041);
+    font-size: 330px;
+    font-weight: 900;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+
+}
+
+#book1{
+position: absolute;
+right: 8.3%;
+bottom: 34.10%;
+}
+#book2{
+    position: absolute;
+    
+}
+#book3{
+    position: absolute;
+ 
+}
+#book4{
+    position: absolute;
+    right: 31.3%;
+    bottom: 34.10%;
+}
+#book27{
+    position: absolute;
+    bottom: 35%;
+
+}
